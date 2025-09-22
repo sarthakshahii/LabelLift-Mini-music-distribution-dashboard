@@ -20,7 +20,7 @@ interface TrackTableProps {
 
 export function TrackTable({ tracks, isLoading, onSearch, onStatusFilter, onDelete }: TrackTableProps) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [statusFilter, setStatusFilter] = useState("");
+  const [statusFilter, setStatusFilter] = useState("all");
 
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);
@@ -29,7 +29,8 @@ export function TrackTable({ tracks, isLoading, onSearch, onStatusFilter, onDele
 
   const handleStatusChange = (value: string) => {
     setStatusFilter(value);
-    onStatusFilter?.(value);
+    // Convert "all" to empty string for the API call
+    onStatusFilter?.(value === "all" ? "" : value);
   };
 
   const getStatusBadgeVariant = (status: string) => {
@@ -97,7 +98,7 @@ export function TrackTable({ tracks, isLoading, onSearch, onStatusFilter, onDele
                 <SelectValue placeholder="All Status" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Status</SelectItem>
+                <SelectItem value="all">All Status</SelectItem>
                 <SelectItem value="released">Released</SelectItem>
                 <SelectItem value="pending">Pending</SelectItem>
                 <SelectItem value="processing">Processing</SelectItem>
