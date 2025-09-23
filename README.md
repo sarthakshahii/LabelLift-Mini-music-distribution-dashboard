@@ -57,16 +57,26 @@ npm run build
 npm run start
 
 💡 Approach & Implementation
+
 Login Page: Mock login with username + password. No real auth, just redirect to dashboard after validation.
+
 Dashboard: Displays uploaded tracks using a table (Title, Artist, Release Date, Status). Data comes from mock API routes.
+
 Track Upload: A form (Title, Artist, Release Date, Genre). On submit, track is added to mock backend and shown in dashboard.
+
 Track Details: Dynamic route (/track/[id]). Fetches and displays info about a single track.
+
 Bonus Features: Theme switcher + localStorage persistence for theme and session.
 
 ✅ Completed Features
+
  Next.js project structure with TypeScript
+ 
  Mock API setup (track data)
+ 
  Navigation between pages (login → dashboard → track details)
+ 
  Form handling for track upload
-## 📂 Project Structure (Frontend Focused)
+ 
+
 
