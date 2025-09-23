@@ -42,10 +42,10 @@ LabelLift/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
-```bash
+1️⃣ Clone the repository
 git clone https://github.com/sarthakshahii/LabelLift-Mini-music-distribution-dashboard.git
 cd LabelLift-Mini-music-distribution-dashboard
+
 2️⃣ Install dependencies
 npm install
 
