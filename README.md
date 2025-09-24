@@ -77,6 +77,26 @@ Bonus Features: Theme switcher + localStorage persistence for theme and session.
  Navigation between pages (login → dashboard → track details)
  
  Form handling for track upload
+
+ ## Login Page
+ <img width="1914" height="956" alt="Screenshot 2025-09-24 185304" src="https://github.com/user-attachments/assets/790b7847-a94d-4669-9935-0f52c62db0a8" />
+
+## Dashboard Page
+ <img width="1919" height="963" alt="Screenshot 2025-09-24 185323" src="https://github.com/user-attachments/assets/e0911a8d-204e-429f-9c0a-a67c0c3e4d7f" />
+
+## Dark theme
+ <img width="1919" height="899" alt="Screenshot 2025-09-24 185344" src="https://github.com/user-attachments/assets/91014ae5-a0fd-4769-84d8-89727d3ed087" />
+
+## Track details
+ <img width="1918" height="971" alt="Screenshot 2025-09-24 185447" src="https://github.com/user-attachments/assets/ea263cab-185f-44ab-9a5f-3a2c08439110" />
+
+## Upload new track
+ <img width="1919" height="967" alt="Screenshot 2025-09-24 185536" src="https://github.com/user-attachments/assets/633725cc-f555-411a-a05e-366d03d9771b" />
+
+
+
+
+
  
 
 
