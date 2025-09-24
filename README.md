@@ -93,6 +93,14 @@ Bonus Features: Theme switcher + localStorage persistence for theme and session.
 ## Upload new track
  <img width="1919" height="967" alt="Screenshot 2025-09-24 185536" src="https://github.com/user-attachments/assets/633725cc-f555-411a-a05e-366d03d9771b" />
 
+ # 🚧 Project Deployment in Progress 🚧
+
+This project is currently under development, and deployment is not yet live.
+I am working on configuring the project version with proper styling and setting it up for hosting on **Vercel**.  
+ 
+⚡ Deployment link will be added soon! 
+
+
 
 
 
