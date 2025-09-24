@@ -24,6 +24,7 @@ This project simulates a lightweight music distribution system where users can l
 - **Optional Dev Server:** Express + Vite integration for hybrid serving  
 
 ---
+```
 LabelLift/
 ├── pages/
 │ ├── index.tsx # Login Page
@@ -36,6 +37,7 @@ LabelLift/
 ├── utils/ # Helper functions (mock data, etc.)
 ├── package.json
 └── README.md
+```
 
 
 ---
